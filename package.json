@@ -1,5 +1,5 @@
 {
-  "name": "react-flatpickr",
+  "name": "@sevenval/react-flatpickr",
   "version": "3.6.3",
   "description": "Fork of react-flatpickr",
   "main": "dist/cjs/index.js",
@@ -12,7 +12,10 @@
     "prepublishOnly": "npm run build",
     "test": "echo todo"
   },
-  "repository": "coderhaoxin/react-flatpickr",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sevenval/react-flatpickr.git"
+  },
   "keywords": [
     "flatpickr",
     "react"
